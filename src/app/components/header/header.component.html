@@ -1,0 +1,18 @@
+<div class="header">
+  <img src="../../assets/image 1.png" alt="header-logo" class="header-logo" />
+  <nav>
+    <a
+      *ngFor="let navOption of navOptions"
+      [routerLink]="navOption.href"
+      class="nav-link"
+      [class.active]="navOption === activeNavOption"
+    >
+      {{ navOption.text }}
+    </a>
+  </nav>
+  <div class="header-right">
+    <img src="../../assets/Language-Switcher.png" alt="language-switcher" />
+    <p>Login</p>
+    <button>Get Demo</button>
+  </div>
+</div>

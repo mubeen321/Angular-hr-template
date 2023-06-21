@@ -1,0 +1,9 @@
+<div class="onboarding-left-container">
+  <h1>{{ title }}</h1>
+  <strong>{{ subtitle }}</strong>
+  <p>{{ case }}</p>
+  You can
+  <a routerLink="{{ caseKeys !== 'login' ? '/login' : '/' }}">
+    {{ caseKeys !== "login" ? "Login here !" : "Register here !" }}
+  </a>
+</div>

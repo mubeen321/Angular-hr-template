@@ -1,0 +1,26 @@
+.onboarding-left-container{
+    padding: 3rem;
+}
+
+.onboarding-left-container> h1{
+    margin: 1rem 0;
+    font-size: 50px;
+    line-height: 75px;
+}
+
+.onboarding-left-container > strong{
+    font-size: 35px;
+    line-height: 52px;
+}
+.onboarding-left-container >p , .onboarding-left-container > a{
+    margin-top: 2rem;
+    font-size: 16px;
+    line-height: 14px;
+}
+
+@media screen and (max-width:650px) {
+    .onboarding-left-container{
+        padding: 0;
+    }
+   
+}

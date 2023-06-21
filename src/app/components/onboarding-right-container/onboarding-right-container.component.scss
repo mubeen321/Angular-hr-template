@@ -1,0 +1,27 @@
+.onboarding-right-container ,.onboarding-right-container > form{
+    display: flex;
+    flex-direction: column;
+}
+
+.onboarding-right-container-footer{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.onboarding-right-container > p{
+    text-align: center;
+    color: #B5B5B5;
+    font-size: 16px;
+line-height: 24px;
+}
+
+.onboarding-right-container-footer >img {
+    height: 32px;
+}
+
+// @media screen and (max-width:650px) {
+//     .onboarding-right-container{
+//         margin-left: 2rem;
+//     }
+// }

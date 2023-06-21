@@ -1,0 +1,79 @@
+<div class="onboarding-right-container">
+  <h1>Sign Up</h1>
+  <!-- <form [formGroup]="signUpForm">
+    <app-input-field
+      label="User Email"
+      type="email"
+      class="input-primary"
+      formControlName="email"
+    ></app-input-field>
+    <app-input-field
+      label="Create User Name"
+      type="text"
+      class="input-primary"
+      formControlName="username"
+    ></app-input-field>
+    <app-input-field
+      label="Contact Number"
+      type="number"
+      class="input-primary"
+      formControlName="contactNumber"
+    ></app-input-field>
+    <app-input-field
+      label="Password"
+      type="password"
+      class="input-primary"
+      formControlName="password"
+    ></app-input-field>
+    <app-input-field
+      label="Confirm Password"
+      type="password"
+      class="input-primary"
+      formControlName="confirmPassword"
+    ></app-input-field>
+
+    <app-button
+      (click)="functioncall($event)"
+      class="button-primary"
+      [label]="label"
+    ></app-button>
+  </form> -->
+  <!-- 
+      [disabled]="isButtonDisabled$ | async"
+
+ -->
+
+  <app-input-field label="User Email" type="email" class="input-primary">
+  </app-input-field>
+
+  <app-input-field label="Create User Name" type="text" class="input-primary">
+  </app-input-field>
+
+  <app-input-field label="Contact Number" type="number" class="input-primary">
+  </app-input-field>
+
+  <app-input-field label="Password" type="password" class="input-primary">
+  </app-input-field>
+
+  <app-input-field
+    label="Confirm Password"
+    type="password"
+    class="input-primary"
+  >
+  </app-input-field>
+
+  <app-button
+    (onClick)="functioncall($event)"
+    class="button-primary"
+    [label]="label"
+  ></app-button>
+
+  <p>or continue with</p>
+
+  <div class="onboarding-right-container-footer">
+    <img src="../../../assets/Facebook.png" />
+    <img src="../../../assets/apple.png" />
+    <img src="../../../assets/google.png" />
+
+  </div>
+</div>

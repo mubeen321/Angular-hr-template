@@ -1,0 +1,31 @@
+.input-primary{
+    background: #FFF7ED;
+    border-radius: 8px;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* Colors/Product Colors/Primary/Ecstasy/300 */
+
+border: none;
+width: calc(360px - 2rem);
+height: 60px;
+outline: none;
+padding-left: 2rem;
+margin: 1rem 0;
+color:gray
+}
+
+.input-primary::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #FAB777;
+    opacity: 1; /* Firefox */
+  }
+
+  @media screen and (max-width:650px) {
+    
+    .input-primary{
+        width: calc(82vw - 2rem);
+
+    }
+  }

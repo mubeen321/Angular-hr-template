@@ -1,0 +1,19 @@
+<div class="login-right-container">
+  <h1>Login</h1>
+
+  <app-input-field
+    label="Enter Email or User Name"
+    type="text"
+    class="input-primary"
+  >
+  </app-input-field>
+
+  <app-input-field label="Password" type="password" class="input-primary">
+  </app-input-field>
+
+  <app-button
+    (onClick)="functioncall($event)"
+    class="button-primary"
+    [label]="label"
+  ></app-button>
+</div>
